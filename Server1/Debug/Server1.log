@@ -1,0 +1,27 @@
+﻿Build started 2015/4/15 22:20:27.
+     1>Project "D:\CSE687\Project3\MessagePassing\MessagePassing\Server1\Server1.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D TEST_SERVER1 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Receiver\Receiver.cpp ..\Sender\Sender.cpp ..\Sockets\Sockets\Sockets.cpp Server1.cpp
+         Receiver.cpp
+         Generating Code...
+         Compiling...
+         Server1.cpp
+         Sockets.cpp
+         Sender.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CSE687\Project3\MessagePassing\MessagePassing\Debug\Server1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CSE687\Project3\MessagePassing\MessagePassing\Debug\Server1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CSE687\Project3\MessagePassing\MessagePassing\Debug\Server1.lib" /MACHINE:X86 Debug\AppHelpers.obj
+         "Debug\Cpp11-BlockingQueue.obj"
+         Debug\Message.obj
+         Debug\QServer.obj
+         Debug\Receiver.obj
+         Debug\Sender.obj
+         Debug\Sockets.obj
+         Debug\WindowsHelpers.obj
+         Debug\Server1.obj
+         Server1.vcxproj -> D:\CSE687\Project3\MessagePassing\MessagePassing\Debug\Server1.exe
+     1>Done Building Project "D:\CSE687\Project3\MessagePassing\MessagePassing\Server1\Server1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.35
